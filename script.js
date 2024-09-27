@@ -2,9 +2,9 @@ const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
 function hasKey(key) {
   if (key in sampleObject){
-	  console.log('true');
+	  return true;
   }else{
-	  console.log('false');
+	  return false;
   }
 }
 
